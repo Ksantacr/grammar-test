@@ -19,5 +19,14 @@
 			"text": "elemento nuevo",
 			"color": "lightblue"
 		}
+	],
+	[{
+			"from": 1,
+			"to": 2
+		},
+		{
+			"from": 1,
+			"to": 4
+		}
 	]
 ]
