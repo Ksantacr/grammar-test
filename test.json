@@ -17,5 +17,16 @@
 		"key": 4,
 		"text": "elemento nuevo",
 		"color": "lightblue"
+	},
+ {
+		"key": 5,
+		"text": "item",
+		"color": "orange"
+	},
+ {
+		"key": 6,
+		"text": "test",
+		"color": "lightblue"
 	}
+ 
 ]
