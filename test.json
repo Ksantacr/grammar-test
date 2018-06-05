@@ -1,23 +1,21 @@
-[
-	[{
-			"key": 1,
-			"text": "item1",
-			"color": "lightblue"
-		},
-		{
-			"key": 2,
-			"text": "elemento nuevo",
-			"color": "orange"
-		},
-		{
-			"key": 3,
-			"text": "item1",
-			"color": "yellow"
-		},
-		{
-			"key": 4,
-			"text": "elemento nuevo",
-			"color": "lightblue"
-		}
-	]
+[{
+		"key": 1,
+		"text": "item1",
+		"color": "lightblue"
+	},
+	{
+		"key": 2,
+		"text": "elemento nuevo",
+		"color": "orange"
+	},
+	{
+		"key": 3,
+		"text": "item1",
+		"color": "yellow"
+	},
+	{
+		"key": 4,
+		"text": "elemento nuevo",
+		"color": "lightblue"
+	}
 ]
