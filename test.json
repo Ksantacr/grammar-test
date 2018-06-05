@@ -18,9 +18,8 @@
 			"key": 4,
 			"text": "elemento nuevo",
 			"color": "lightblue"
-		}
-	],
-	[{
+		},
+		{
 			"from": 1,
 			"to": 2
 		},
