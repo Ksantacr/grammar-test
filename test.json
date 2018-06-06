@@ -2,36 +2,42 @@
 		"key": 1,
 		"text": "rule",
 		"color": "#6F1E51",
+		"stroke": "white",
 		"location": { "x": -171, "y": 47}
 	},
 	{
 		"key": 2,
 		"text": "Manzana",
 		"color": "#192a56",
+		"stroke": "white",
 		"location": { "x": -40, "y": 4}
 	},
 	{
 		"key": 3,
 		"text": "Pera",
 		"color": "#192a56",
+		"stroke": "white",
 		"location": { "x": -40, "y": 60}
 	},
 	{
 		"key": 4,
 		"text": "Sandia",
 		"color": "#192a56",
+		"stroke": "white",
 		"location": { "x": -40, "y": 130}
 	},
  {
 		"key": 5,
 		"text": "rule",
 		"color": "#6F1E51",
+	 	"stroke": "white",
 		"location": { "x": 106, "y": 52}
 	},
  {
 		"key": 6,
 		"text": "Hola",
 		"color": "lightgoldenrodyellow ",
+	 	"stroke": "white",
 		"location": { "x": 230, "y": -80}
 	}
  
