@@ -1,32 +1,32 @@
 [{
 		"key": 1,
-		"text": "item1",
+		"text": "one-of",
 		"color": "lightblue"
 	},
 	{
 		"key": 2,
-		"text": "elemento nuevo",
+		"text": "Manzana",
 		"color": "orange"
 	},
 	{
 		"key": 3,
-		"text": "item1",
-		"color": "yellow"
+		"text": "Pera",
+		"color": "orange"
 	},
 	{
 		"key": 4,
-		"text": "elemento nuevo",
-		"color": "lightblue"
-	},
- {
-		"key": 5,
-		"text": "item",
+		"text": "Sandia",
 		"color": "orange"
 	},
  {
+		"key": 5,
+		"text": "rule",
+		"color": "ivy"
+	},
+ {
 		"key": 6,
-		"text": "test",
-		"color": "lightblue"
+		"text": "#accion",
+		"color": "lightgoldenrodyellow "
 	}
  
 ]
