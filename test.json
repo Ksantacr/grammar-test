@@ -1,7 +1,7 @@
 [{
 		"key": 1,
-		"text": "one-of",
-		"color": "lightblue",
+		"text": "rule",
+		"color": "orangered",
 		"location": { "x": -171, "y": 47}
 	},
 	{
@@ -25,7 +25,7 @@
  {
 		"key": 5,
 		"text": "rule",
-		"color": "red",
+		"color": "orangered",
 		"location": { "x": 106, "y": 52}
 	},
  {
