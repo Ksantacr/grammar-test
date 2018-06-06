@@ -1,32 +1,38 @@
 [{
 		"key": 1,
 		"text": "one-of",
-		"color": "lightblue"
+		"color": "lightblue",
+		"location": { "x": 5, "y": 5}
 	},
 	{
 		"key": 2,
 		"text": "Manzana",
-		"color": "orange"
+		"color": "orange",
+		"location": { "x": 15, "y": 15}
 	},
 	{
 		"key": 3,
 		"text": "Pera",
-		"color": "orange"
+		"color": "orange",
+		"location": { "x": 25, "y": 25}
 	},
 	{
 		"key": 4,
 		"text": "Sandia",
-		"color": "orange"
+		"color": "orange",
+		"location": { "x": 35, "y": 35}
 	},
  {
 		"key": 5,
 		"text": "rule",
-		"color": "ivy"
+		"color": "ivy",
+		"location": { "x": 45, "y": 45}
 	},
  {
 		"key": 6,
 		"text": "#accion",
-		"color": "lightgoldenrodyellow "
+		"color": "lightgoldenrodyellow ",
+		"location": { "x": 55, "y": 55}
 	}
  
 ]
