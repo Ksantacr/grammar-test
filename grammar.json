@@ -4,7 +4,8 @@
       "RuleId": "Person",
       "RuleElements": [
         {
-          "RuleItems": "I|you|he|she"
+          "RuleItems": "I|you|he|she",
+          "locations": "10 10|30 30|50 50|70 70"
         }
       ]
     },
@@ -12,7 +13,8 @@
       "RuleId": "Action",
       "RuleElements": [
         {
-          "RuleItems": "ate|bought|saw|sold|wanted"
+          "RuleItems": "ate|bought|saw|sold|wanted",
+          "locations": "10 10|30 30|50 50|70 70"
         }
       ]
     },
@@ -20,7 +22,8 @@
       "RuleId": "frase",
       "RuleElements": [
         {
-          "RuleItems": "the|a|an"
+          "RuleItems": "the|a|an",
+          "locations": "10 10|30 30|50 50|70 70"
         }
       ]
     },
@@ -29,19 +32,19 @@
       "RuleElements": [
         {
           "RuleItems": "apple|manzana",
-          "RuleReturnValue": "AP"
+          "locations": "10 10|30 30|50 50|70 70"
         },
         {
           "RuleItems": "banana|guineo",
-          "RuleReturnValue": "BN"
+          "locations": "10 10|30 30|50 50|70 70"
         },
         {
           "RuleItems": "pear|pera",
-          "RuleReturnValue": "PR"
+          "locations": "10 10|30 30|50 50|70 70"
         },
         {
           "RuleItems": "melon",
-          "RuleReturnValue": "ML"
+          "locations": "10 10|30 30|50 50|70 70"
         }
       ]
     },
@@ -49,7 +52,8 @@
       "RuleId": "Action2",
       "RuleElements": [
         {
-          "RuleItems": "prueba|test|ejemplo"
+          "RuleItems": "prueba|test|ejemplo",
+          "locations": "10 10|30 30|50 50|70 70"
         }
       ]
     },
@@ -58,11 +62,11 @@
       "RuleElements": [
         {
           "RuleItems": "carro|moto|bus",
-          "RuleReturnValue": "Motorizado"
+          "locations": "10 10|30 30|50 50|70 70"
         },
         {
           "RuleItems": "bicicleta|triciclo|patineta|patines",
-          "RuleReturnValue": "NoMotorizado"
+          "locations": "10 10|30 30|50 50|70 70"
         }
       ]
     },
@@ -76,110 +80,8 @@
     }
   ],
   "GrammarRulesRefList": [
-    [
-      {
-        "Type": "Fix",
-        "RuleId": "Person",
-        "RuleRefElements": [
-          {
-            "NodeText": "Yo"
-          }
-        ]
-      },
-      {
-        "Type": "Fix",
-        "RuleId": "Action",
-        "RuleRefElements": [
-          {
-            "NodeText": "ate"
-          }
-        ]
-      },
-      {
-        "Type": "Opt",
-        "RuleId": "frase",
-        "RuleRefElements": [
-          {
-            "NodeText": "the"
-          }
-        ]
-      },
-      {
-        "Type": "Out",
-        "RuleId": "Food",
-        "RuleRefElements": [
-          {
-          	"ImplicationMode": "B",
-            "NodeText": "apple",
-            "ImplicationsList": [
-              {
-                "RuleRefName": "Food"
-              }
-              ]
-          }
-        ]
-      },
-      {
-        "Type": "Grb",
-        "RuleId": "Grb",
-        "RuleRefElements": []
-      }
-    ],
-    [
-      {
-        "Type": "Fix",
-        "RuleId": "Action2",
-        "RuleRefElements": [
-          {
-            "NodeText": "test"
-          }
-        ]
-      },
-      {
-        "Type": "Out",
-        "RuleId": "Demo2",
-        "RuleRefElements": [
-    	  {
-			"ImplicationMode": "B",
-			"NodeText": "vehiculo",
-			"ImplicationsList": [
-              {
-                "RuleRefName": "Demo2"
-              }
-              ]
-		},
-		{
-			"ImplicationMode": "I",
-			"NodeText": "sin_motor",
-			"ImplicationsList": [
-              {
-                "RuleRefName": "Demo2",
-                "ImplicationValue": "NoMotorizado"
-              },
-              {
-                "RuleRefName": "Food",
-                "ImplicationValue": "AP"
-              }
-            ]
-			},
-          {
-          	"ImplicationMode": "I",
-            "NodeText": "con_motor",
-            "ImplicationsList": [
-              {
-                "RuleRefName": "Demo2",
-                "ImplicationValue": "Motorizado"
-              }
-              ]
-          }
-        ]
-      },
-      {
-        "Type": "Grb",
-        "RuleId": "Grb",
-        "RuleRefElements": []
-      }
-    ]
+    [],
+    []
   ],
   "GrammarFileName": "TestGrm02"
 }
