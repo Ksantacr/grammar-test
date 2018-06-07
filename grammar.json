@@ -1,7 +1,7 @@
 {
 	"GrammarRulesList": [{
 			"RuleId": "Person",
-			"locations": "10 10|30 30|50 50|70 70",
+			"loc": "10 10",
 			"RuleElements": [{
 				"RuleItems": "I|you|he|she",
 				"locations": "10 10|30 30|50 50|70 70"
@@ -14,7 +14,7 @@
 		},
 		{
 			"RuleId": "Action",
-			"locations": "10 10|30 30|50 50|70 70",
+			"loc": "10 10",
 			"RuleElements": [{
 				"RuleItems": "ate|bought|saw|sold|wanted",
 				"locations": "10 10|30 30|50 50|70 70"
@@ -22,7 +22,7 @@
 		},
 		{
 			"RuleId": "frase",
-			"locations": "10 10|30 30|50 50|70 70",
+			"loc": "10 10",
 			"RuleElements": [{
 				"RuleItems": "the|a|an",
 				"locations": "10 10|30 30|50 50|70 70"
@@ -30,7 +30,7 @@
 		},
 		{
 			"RuleId": "Food",
-			"locations": "10 10|30 30|50 50|70 70",
+			"loc": "10 10",
 			"RuleElements": [{
 					"RuleItems": "apple|manzana",
 					"locations": "10 10|30 30|50 50|70 70",
